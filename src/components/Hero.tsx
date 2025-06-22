@@ -1,9 +1,11 @@
-import React from 'react';
 import { ChevronDown, MapPin, Phone, Mail } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen relative overflow-hidden bg-gradient-to-br from-blue-900 via-purple-900 to-indigo-900">
+    <section
+      id="home"
+      className="min-h-screen relative overflow-hidden bg-gradient-to-br from-blue-900 via-purple-900 to-indigo-900"
+    >
       {/* Animated Background */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-20 w-72 h-72 bg-blue-500/20 rounded-full blur-3xl animate-pulse"></div>
@@ -60,9 +62,9 @@ const Hero = () => {
           {/* Right Content - Profile Image */}
           <div className="lg:w-1/2 flex justify-center lg:justify-end mt-12 lg:mt-0">
             <div className="relative">
-              <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl transform hover:scale-105 transition-transform duration-500">
+              <div className="w-64 h-64 rounded-full border-2 border-white overflow-hidden shadow-lg">
                 <img
-                  src="/k.jpg"
+                  src="/profile.png"
                   alt="Godi Sai Santosh Reddy"
                   className="w-full h-full object-cover"
                 />
